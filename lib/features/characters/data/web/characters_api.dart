@@ -1,4 +1,4 @@
-import 'package:blocwithomerahmed/constans.dart';
+import '../../../../constans.dart';
 import 'package:dio/dio.dart';
 
 class CharactersApi {

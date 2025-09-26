@@ -1,10 +1,11 @@
-import 'package:blocwithomerahmed/features/characters%20details/presentation/view/characters_details_view.dart';
-import 'package:blocwithomerahmed/features/characters/data/models/charactes_model.dart';
-import 'package:blocwithomerahmed/features/characters/data/repository/characters_repository.dart';
-import 'package:blocwithomerahmed/features/characters/presentation/manager/cubit/characters_cubit.dart';
-import 'package:blocwithomerahmed/features/characters/presentation/view/characters_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../features/characters%20details/presentation/view/characters_details_view.dart';
+import '../../features/characters/data/models/charactes_model.dart';
+import '../../features/characters/data/repository/characters_repository.dart';
+import '../../features/characters/presentation/manager/cubit/characters_cubit.dart';
+import '../../features/characters/presentation/view/characters_view.dart';
 
 class AppRouter {
   late CharactersRepository charactersRepository;

@@ -1,7 +1,7 @@
-import 'package:blocwithomerahmed/core/utils/app_colors.dart';
-import 'package:blocwithomerahmed/core/widgets/loading.dart';
-import 'package:blocwithomerahmed/features/characters/data/models/charactes_model.dart';
-import 'package:blocwithomerahmed/features/characters/presentation/manager/cubit/characters_cubit.dart';
+import '../../../../core/utils/app_colors.dart';
+import '../../../../core/widgets/loading.dart';
+import '../../data/models/charactes_model.dart';
+import '../manager/cubit/characters_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_offline/flutter_offline.dart';
@@ -135,16 +135,17 @@ class _CharactersViewState extends State<CharactersView> {
   Widget buildNoInternetWidget() {
     return Center(
       child: Container(
-        color: AppColors.white,
+        color: Colors.white,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 20),
+            SizedBox(height: 30),
             Text(
               "can\\'t connect Please check your internet",
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 22, color: AppColors.grey),
             ),
-            SvgPicture.asset('assets/images/undraw_no-signal_nqfa.svg')
+            SvgPicture.asset('assets/images/undraw_no-signal_nqfa.svg',)
           ],
         ),
       ),

@@ -1,5 +1,5 @@
 
-import 'package:blocwithomerahmed/features/characters%20details/presentation/view/characters_details_view.dart';
+import '../../../../characters%20details/presentation/view/characters_details_view.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/app_colors.dart';

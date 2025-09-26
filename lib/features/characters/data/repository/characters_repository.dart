@@ -1,5 +1,5 @@
-import 'package:blocwithomerahmed/features/characters/data/models/charactes_model.dart';
-import 'package:blocwithomerahmed/features/characters/data/web/characters_api.dart';
+import '../models/charactes_model.dart';
+import '../web/characters_api.dart';
 
 class CharactersRepository {
   CharactersApi charactersApi = CharactersApi();
